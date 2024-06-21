@@ -4,8 +4,6 @@ import Lottie, { useLottie } from "lottie-react";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import {
-  FaHtml5,
-  FaCss3Alt,
   FaJs,
   FaReact,
   FaNodeJs,
@@ -24,8 +22,8 @@ const About = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="md:flex justify-center items-center bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 ">
-        <div className="md:w-1/3 flex justify-center items-center shadow-lg p-6">
-          <div className="w-full md:w-96 transform transition duration-500 hover:rotate-6">
+        <div className="md:w-1/3 flex justify-center items-center shadow-lg pt-6 md:p-6">
+          <div className="w-full h-96 md:w-96 transform transition duration-500 hover:rotate-6 hover:shadow-lg">
             {View}
           </div>
         </div>
@@ -43,14 +41,18 @@ const About = () => {
               together!
             </p>
           </div>
-          <div className="ml-20 mb-4">
+          <div className="ml-16 mb-4">
             <Tabs>
               <TabList className="">
                 <Tab>
-                  <p className="text-xl text-cyan-700 font-bold uppercase">Skills</p>
+                  <p className="text-xl text-cyan-700 font-bold uppercase">
+                    Skills
+                  </p>
                 </Tab>
                 <Tab>
-                  <p className="text-xl text-cyan-700 font-bold uppercase">Education</p>
+                  <p className="text-xl text-cyan-700 font-bold uppercase">
+                    Education
+                  </p>
                 </Tab>
               </TabList>
               <TabPanel>

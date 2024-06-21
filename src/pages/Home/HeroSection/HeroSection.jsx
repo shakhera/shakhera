@@ -2,9 +2,8 @@ import React from "react";
 import profile from "../../../assets/images/bg/pc.json";
 import { Cursor, Typewriter } from "react-simple-typewriter";
 import "./HeroSection.css";
-import { Parallax } from "react-parallax";
 import SocialLink from "../../../components/SocialLink/SocialLink";
-import { FaDownload, FaFileDownload } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import resume from "../../../assets/resume/shakhera.pdf";
 import { useLottie } from "lottie-react";
 
