@@ -4,11 +4,12 @@ import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import Project from "../pages/Project/Project/Project";
 import Main from "../Layout/Main";
+import Root from "../Layout/Root";
 
 const routers = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>,
+    element: <Root></Root>,
     children: [
       {
         path: "/",

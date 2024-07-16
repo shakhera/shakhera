@@ -2,9 +2,8 @@ import React from "react";
 import profile from "../../../assets/images/bg/pc.json";
 import { Cursor, Typewriter } from "react-simple-typewriter";
 import "./HeroSection.css";
-import SocialLink from "../../../components/SocialLink/SocialLink";
 import { FaDownload } from "react-icons/fa";
-import resume from "../../../assets/resume/shakhera.pdf";
+import resume from "../../../assets/resume/Shakhera_Khanom_Resume.pdf";
 import { useLottie } from "lottie-react";
 
 const HeroSection = () => {
@@ -20,6 +19,13 @@ const HeroSection = () => {
     loop: true,
   };
   const { View } = useLottie(options);
+  const handleDownload = () => {
+    window.open(resume, "_blank");
+    // const link = document.createElement("a");
+    // link.href = resume;
+    // link.download = "shakhera_khanom_resume.pdf";
+    // link.click();
+  };
 
   return (
     <div className="bg-image bg-fixed bg-no-repeat bg-cover bg-center  w-full bg-[#EEEDEB] ">
@@ -44,17 +50,16 @@ const HeroSection = () => {
             />
             <Cursor></Cursor>
           </p>
-          <a
-            href={resume}
-            download
+          <button
+            onClick={handleDownload}
             className="mt-4 px-6 py-2 bg-cyan-600 text-white text-xl rounded-full shadow-lg hover:bg-cyan-700 transition duration-300 flex items-center"
           >
             Resume <FaDownload className="ml-2" />
-          </a>
+          </button>
 
-          <div className="block md:hidden">
+          {/* <div className="block md:hidden">
             <SocialLink />
-          </div>
+          </div> */}
         </div>
 
         <div className="md:w-1/2 flex justify-center items-center md:mt-20 ">
