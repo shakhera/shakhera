@@ -1,19 +1,29 @@
-## Hi there 👋
 
-<h1>Welcome to my portfolio! I'm Shakhera Khanom, <br/><a href="https://github.com/shakhera">Programmer</a>,<a href="https://www.linkedin.com/in/shakhera-khanom">Web Developer</a></h1>
 
-<h2>👨‍💻 Development Projects:</h2>
+<h1>Welcome to my Portfolio!</h1>
+<p>I'm Shakhera Khanom, a passionate <a href="https://github.com/shakhera">Programmer</a> and dedicated <a href="https://www.linkedin.com/in/shakhera-khanom">Web Developer</a> with expertise in creating dynamic, user-friendly web applications. With a strong foundation in HTML, CSS, JavaScript, and React, I thrive on bringing ideas to life through clean, efficient code. Explore my projects and let's connect!</p>
 
-- <b>Match Mate Connect</b>
-  - [Matrimonial Platform using React, NodeJS, and MongoDB](https://github.com/shakhera/match-mate-connect)
-- <b>allure-marketplace</b>
-  - [| A Simple Ecommerce Website](https://github.com/shakhera/modest-covering-draps)
-- <b>Dish Companion Zen</b>
-  - [| Simple Food Recipe Website](https://github.com/shakhera/dish-companion-zen)
 
-### 💼 Other Notable Projects:
-- <b>WILD PHOTOGRAPHER</b>
-  - [A Photography Portfolio Website](https://github.com/shakhera/wild-photographer)
+<h2>👨‍💻 Featured Development Projects:</h2>
+
+- <b>Match Mate Connect</b> [[Live Link]](https://match-mate-connect.web.app/)
+  - [Matrimonial Platform | React, Node.js, MongoDB](https://github.com/shakhera/match-mate-connect)
+  -  A full-featured matrimonial platform enabling users to connect and find compatible matches. Includes advanced filtering options, user profile management, and secure data handling.
+      
+- <b>allure-marketplace</b> [[Live Link]](https://allure-marketplace.web.app/)
+  - [Ecommerce Website | Simple and Elegant](https://github.com/shakhera/modest-covering-draps)
+  - A sleek and modern e-commerce platform designed for easy browsing and purchasing. Features include product categorization, shopping cart functionality, and secure checkout processes.
+    
+- <b>Dish Companion Zen</b> [[Live Link]](https://fir-dish-companion-zen.web.app/)
+  - [Food Recipe Website | Culinary Simplicity](https://github.com/shakhera/dish-companion-zen)
+  - A beautifully designed recipe website that offers users a seamless experience in discovering and sharing delicious recipes. Includes search functionality, user ratings, and step-by-step guides.
+
+
+<h3>💼 Additional Noteworthy Projects:</h3>
+  
+- <b>WILD PHOTOGRAPHER</b> [[Live Link]](https://wild-photographer-32aff.web.app/)
+  - [Photography Portfolio | Capturing Moments](https://github.com/shakhera/wild-photographer)
+  - A minimalistic yet powerful blogging platform where users can publish posts, engage with readers through comments, and manage content efficiently.
 
 
 
