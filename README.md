@@ -48,9 +48,9 @@ Hi there! I'm **Shakhera Khanom**, a [Programmer](https://github.com/shakhera) a
 ## 🎨 Other Projects  
 
 - **[Wild Photographer](https://wild-photographer-32aff.web.app/):** A visually engaging portfolio for photographers.  
-  **Tech Stack:** React, Firebase
-  **Live Demo:** [Wild Photographer](https://wild-photographer-32aff.web.app/) 
-  **Code:** [GitHub](https://github.com/shakhera/wild-photographer)  
+  - **Tech Stack:** React, Firebase
+  - **Live Demo:** [Wild Photographer](https://wild-photographer-32aff.web.app/) 
+  - **Code:** [GitHub](https://github.com/shakhera/wild-photographer)  
 
 ---
 
